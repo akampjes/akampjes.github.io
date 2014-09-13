@@ -18,7 +18,8 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <script src="bower_components/modernizr/modernizr.js"></script>
   </head>
 
   <body>
@@ -43,6 +44,12 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
+<div class="row">
+    <div class="small-4 columns">side content</div>  
+    <div class="small-8 columns"></div>
+<div class="button">button</div>
+</div>
+
 
     <div class="wrapper-footer">
       <div class="container">
@@ -53,5 +60,8 @@
     </div>
 
     {% include analytics.html %}
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
