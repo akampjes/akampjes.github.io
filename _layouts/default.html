@@ -23,8 +23,27 @@
   </head>
 
   <body>
+    <nav class="top-bar" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="{{ site.baseurl }}">Andrew Kampjes</a></h1>
+        </li>
+         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+      <section class="top-bar-section">
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+          <li><a href="{{ site.baseurl }}/about">About</a></li>
+        </ul>
+      </section>
+
+    </nav>
+
   <div class="row">
 
+    
     <div id="main" role="main" class="container large-8 columns">
       {{ content }}
     </div>
@@ -36,20 +55,20 @@
           <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
           <p class="site-description">{{ site.description }}</p>
         </div>
-        
-        <nav>
-          <a href="{{ site.baseurl }}/">Blog</a>
-          <a href="{{ site.baseurl }}/about">About</a>
-        </nav>
       </header>
-    </div>
 
+      {% include svg-icons.html %}
+    </div>
+   
   </div>
+
 
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
+          <!--
           {% include svg-icons.html %}
+          -->
         </footer>
       </div>
     </div>
