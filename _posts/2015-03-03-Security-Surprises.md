@@ -3,7 +3,7 @@ layout: post
 title: Security Surprises in your Favourite Framework
 ---
 
-Only two days after my talk at [Ruby and Rails Melbourne](/Railsec-TLDR/) I gave a talk, in tandium with Mike Haworth at [Auckland OWASP day](https://www.owasp.org/index.php/OWASP_New_Zealand_Day_2015) conference. The talk is based on the premise that we rely on our web development frameworks provide security by default and we find it suprising when we have security holes that our framework didn't prevent for us.
+Only two days after my talk at [Ruby and Rails Melbourne](/Railsec-TLDR/) I gave another talk, in tandium with Mike Haworth, at [Auckland OWASP day](https://www.owasp.org/index.php/OWASP_New_Zealand_Day_2015) conference. The talk is based on the premise that we rely on our web development frameworks provide security by default and we find it suprising when we have security holes that our framework didn't prevent for us.
 
 <script async class="speakerdeck-embed" data-id="cf7763a163fd4674aea628aa172be641" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
